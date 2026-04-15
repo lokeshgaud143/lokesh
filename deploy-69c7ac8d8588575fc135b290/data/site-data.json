@@ -1,0 +1,189 @@
+{
+  "site": {
+    "Primary business/profile details used across the website.": "",
+    "Key": "Value",
+    "name": "Lokesh",
+    "title": "Website Developer \u2022 Digital Marketer \u2022 Security Audit Support",
+    "tagline": "I build clean, fast and trustworthy digital experiences for local businesses and growing brands.",
+    "description": "Lokesh provides website development, digital marketing support, landing pages, business websites, website refresh work, basic security audit support, SEO setup, content updates and maintenance.",
+    "primary_cta_label": "Start a Project",
+    "primary_cta_link": "#contact",
+    "secondary_cta_label": "View Services",
+    "secondary_cta_link": "#services",
+    "email": "hello@example.com",
+    "phone": "+91 90000 00000",
+    "location": "Jaipur, Rajasthan, India",
+    "copyright": "\u00a9 2026 Lokesh. All rights reserved."
+  },
+  "theme": {
+    "Edit the premium colors from here. These values feed the website theme variables.": "",
+    "Key": "Value",
+    "bg": "#08111f",
+    "surface": "#0f1b31",
+    "surface_alt": "#122543",
+    "text": "#eef4ff",
+    "muted": "#9db0cd",
+    "primary": "#7c5cff",
+    "secondary": "#1fd6c8",
+    "accent": "#f0b34d",
+    "border": "rgba(255,255,255,0.10)",
+    "gradient_1": "#7c5cff",
+    "gradient_2": "#1fd6c8"
+  },
+  "seo": {
+    "Search meta, canonical URL and Open Graph image settings.": "",
+    "Key": "Value",
+    "title": "Lokesh | Web Development, Digital Marketing & Security Audit Support",
+    "description": "Professional profile website for Lokesh offering business websites, landing pages, digital marketing support, SEO setup and basic security audit support.",
+    "keywords": "Lokesh, website development, digital marketing, security audit, SEO, landing page, portfolio website",
+    "canonical": "https://example.com/",
+    "og_image": "assets/lokesh-profile-placeholder.svg"
+  },
+  "about": {
+    "heading": "Professional profile website for modern business growth",
+    "body": "I help businesses create a strong online presence with fast websites, practical marketing support and trustworthy digital improvements. My focus is clear communication, clean execution and solutions that are realistic to deliver.",
+    "stats": [
+      {
+        "label": "Label",
+        "value": "Value"
+      },
+      {
+        "label": "Fast Delivery",
+        "value": "1-5 Days"
+      },
+      {
+        "label": "Core Focus",
+        "value": "Business Websites"
+      },
+      {
+        "label": "Support",
+        "value": "SEO + Updates"
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Business Website Development",
+      "description": "Modern responsive websites for shops, cafes, furniture stores, service brands and local businesses.",
+      "icon": "globe",
+      "badge": "Popular"
+    },
+    {
+      "title": "Landing Page Design",
+      "description": "High-converting single-page websites for promotions, campaigns and lead generation.",
+      "icon": "spark",
+      "badge": "Fast Setup"
+    },
+    {
+      "title": "Website Redesign",
+      "description": "Improve old websites with cleaner UI, better structure and mobile-friendly layouts.",
+      "icon": "refresh",
+      "badge": "Upgrade"
+    },
+    {
+      "title": "SEO Setup",
+      "description": "Meta tags, schema basics, page structure, speed-friendly setup and search visibility improvements.",
+      "icon": "search",
+      "badge": "Essential"
+    },
+    {
+      "title": "Digital Marketing Support",
+      "description": "Basic content planning, campaign page setup, CTA optimization and lead capture structure.",
+      "icon": "megaphone",
+      "badge": "Growth"
+    },
+    {
+      "title": "Content Update & Maintenance",
+      "description": "Ongoing support for text changes, banners, service updates, image replacement and fixes.",
+      "icon": "edit",
+      "badge": "Monthly"
+    },
+    {
+      "title": "Basic Security Audit Support",
+      "description": "Basic website checks for hygiene issues, visible risks and improvement suggestions.",
+      "icon": "shield",
+      "badge": "Trust"
+    },
+    {
+      "title": "WhatsApp Lead Integration",
+      "description": "Connect website actions to WhatsApp for faster inquiries and simpler customer communication.",
+      "icon": "chat",
+      "badge": "Useful"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cafe Demo Website",
+      "category": "Restaurant Website",
+      "summary": "Animated landing page with menu highlights, WhatsApp CTA and premium visuals.",
+      "link": "#",
+      "tag": "Sample Project"
+    },
+    {
+      "name": "Furniture Store Profile",
+      "category": "Business Website",
+      "summary": "Brand-style homepage for product showcase, trust building and inquiry generation.",
+      "link": "#",
+      "tag": "Sample Project"
+    },
+    {
+      "name": "Service Landing Page",
+      "category": "Lead Generation",
+      "summary": "Compact conversion-focused page built for phone inquiries and quick action.",
+      "link": "#",
+      "tag": "Sample Project"
+    }
+  ],
+  "process": [
+    {
+      "step": "01",
+      "title": "Requirement Discussion",
+      "text": "Understand business type, pages, goals and service scope."
+    },
+    {
+      "step": "02",
+      "title": "Design & Content Setup",
+      "text": "Prepare structure, theme, sections and CTA flow."
+    },
+    {
+      "step": "03",
+      "title": "Build & Optimize",
+      "text": "Develop fast pages with animation, SEO basics and mobile support."
+    },
+    {
+      "step": "04",
+      "title": "Launch & Support",
+      "text": "Connect forms, test behavior and provide update-ready structure."
+    }
+  ],
+  "contact": {
+    "heading": "Let\u2019s build something professional",
+    "subheading": "Tell me what service you need and I\u2019ll get back to you.",
+    "services_list": [
+      "Business Website Development",
+      "Landing Page Design",
+      "Website Redesign",
+      "SEO Setup",
+      "Digital Marketing Support",
+      "Content Update & Maintenance",
+      "Basic Security Audit Support",
+      "WhatsApp Lead Integration"
+    ],
+    "form_endpoint": "https://formspree.io/f/your-form-id",
+    "success_redirect": "index.html#home"
+  },
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/lokesh-gaud/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:hello@example.com"
+    },
+    {
+      "label": "Phone",
+      "url": "tel:+919000000000"
+    }
+  ]
+}

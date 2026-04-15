@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lokesh</title>
+  <meta name="description" content="Professional profile website for Lokesh." />
+  <meta name="keywords" content="Lokesh, website development, digital marketing, security audit" />
+  <link rel="canonical" href="https://example.com/" />
+  <meta name="theme-color" content="#08111f" />
+  <meta property="og:title" content="Lokesh" />
+  <meta property="og:description" content="Professional profile website for Lokesh." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/lokesh-profile.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json" id="schemaJson">{"@context":"https://schema.org","@type":"Person","name":"Lokesh","jobTitle":"Web Developer","url":"https://example.com/"}</script>
+</head>
+<body>
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <p>Loading profile...</p>
+  </div>
+
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+    <div>
+      <strong>Cookies & preferences</strong>
+      <p>This website uses local storage for theme settings, animations and cookie consent only.</p>
+    </div>
+    <button id="acceptCookies" class="btn btn-primary">Accept</button>
+  </div>
+
+  <div class="blob blob-a"></div>
+  <div class="blob blob-b"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">Lokesh</a>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-outline header-cta">Hire Me</a>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Premium digital profile</p>
+        <h1 id="heroTitle">Lokesh</h1>
+        <p class="lead" id="heroTagline">Fast websites, digital growth support and trustworthy web presence.</p>
+        <div class="hero-actions">
+          <a id="primaryCta" class="btn btn-primary" href="#contact">Start a Project</a>
+          <a id="secondaryCta" class="btn btn-outline" href="#services">View Services</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-card floating-card">
+          <img id="heroImage" src="assets/lokesh-profile.jpg" alt="Lokesh profile image" loading="eager" />
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip section reveal">
+      <div class="trust-item">Responsive design</div>
+      <div class="trust-item">Lead capture ready</div>
+      <div class="trust-item">SEO basics included</div>
+      <div class="trust-item">Slow network friendly</div>
+    </section>
+
+    <section class="section about-grid">
+      <div class="section-head reveal">
+        <p class="eyebrow">About</p>
+        <h2 id="aboutHeading">Professional profile website for modern business growth</h2>
+      </div>
+      <div class="about-card reveal">
+        <p id="aboutBody"></p>
+      </div>
+      <div class="stats-grid" id="statsGrid"></div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-head reveal">
+        <p class="eyebrow">Services</p>
+        <h2>Services I provide</h2>
+        <p>Professional services kept practical and realistic for real business needs.</p>
+      </div>
+      <div id="servicesLoader" class="cards-grid skeleton-grid">
+        <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+      </div>
+      <div id="servicesGrid" class="cards-grid hidden"></div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <p class="eyebrow">Sample projects</p>
+        <h2>Examples of profile and business website work</h2>
+      </div>
+      <div class="project-grid" id="projectsGrid"></div>
+    </section>
+
+    <section class="section process-wrap" id="process">
+      <div class="section-head reveal">
+        <p class="eyebrow">Workflow</p>
+        <h2>Simple process, clean execution</h2>
+      </div>
+      <div class="timeline" id="processGrid"></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contactHeading">Let's build something professional</h2>
+        <p id="contactSubheading"></p>
+        <div class="contact-meta" id="contactMeta"></div>
+      </div>
+      <form id="contactForm" class="contact-form reveal">
+        <input type="hidden" name="_subject" value="New inquiry from Lokesh website" />
+        <div class="field">
+          <label for="fullName">Name *</label>
+          <input id="fullName" name="name" type="text" required />
+        </div>
+        <div class="field">
+          <label for="email">Email ID *</label>
+          <input id="email" name="email" type="email" required />
+        </div>
+        <div class="field">
+          <label for="phone">Contact Number *</label>
+          <input id="phone" name="phone" type="tel" required />
+        </div>
+        <div class="field">
+          <label for="serviceReason">Choose Service *</label>
+          <select id="serviceReason" name="service" required></select>
+        </div>
+        <div class="field field-full">
+          <label for="comment">Comment / Requirement *</label>
+          <textarea id="comment" name="message" rows="6" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send Inquiry</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Lokesh</strong>
+      <p id="footerText">Professional web profile.</p>
+    </div>
+    <div id="socialLinks" class="social-links"></div>
+  </footer>
+
+  <script src="gsheet-config.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
